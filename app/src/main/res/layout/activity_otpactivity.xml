@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    android:padding="20dp"
+    android:paddingLeft="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".OTPactivity">
+    <TextView
+        android:id="@+id/vno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify +919876543210"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/wno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waiting to automatically detect an SMS sent to"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:padding="16dp"/>
+    <TextView
+        android:id="@+id/cno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:letterSpacing="0.8"
+        android:background="@color/white"
+        android:visibility="visible"
+        android:hint="000000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your 6 digit Code"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/verification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Verification Code"
+        android:layout_marginTop="16dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Resend SMS"
+        android:enabled="false"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Subham Kumar Singh"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom"
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @2023"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".LoginAtivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Shimei-sha"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="75dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify your Phone Number"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:textColor="@color/purple_200"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="100dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your mobile number.You will get a SMS including a verification code"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="24dp"
+    android:orientation="horizontal">
+
+    <com.hbb20.CountryCodePicker
+        app:ccp_autoDetectCountry="true"
+        app:ccp_showNameCode="false"
+        app:ccp_textSize="20dp"
+        app:ccp_contentColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/ccp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="240dp"
+        android:id="@+id/number"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:hint="Mobile Number"
+        android:maxLength="10"
+        android:shadowColor="@color/white" />
+</LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logbtn"
+        android:enabled="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="NEXT"
+        android:textSize="20sp"
+        app:cornerRadius="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Subham Kumar Singh"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="360dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" @2023"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "644536198319",
+    "project_id": "shimei-sha",
+    "storage_bucket": "shimei-sha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644536198319:android:ffc5e43c1ba0742f30a05a",
+        "android_client_info": {
+          "package_name": "com.example.android.shimei_sha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644536198319-7cntibujebb69jgllp9oe97vbjesbuek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.shimei_sha",
+            "certificate_hash": "f058854b7b325f1aab6f57a7c66dacf61519138d"
+          }
+        },
+        {
+          "client_id": "644536198319-iutn7ha848vk69ik129vpmuutt4uh9mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDKyBTeV36rR2CGBxIB6SI-p3zmy9mw-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644536198319-iutn7ha848vk69ik129vpmuutt4uh9mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/subha/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_login_ativity.xml" value="0.22" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_otpactivity.xml" value="0.22" />
+        <entry key="..\:/Users/subha/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_sign_upactivity.xml" value="0.14666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
